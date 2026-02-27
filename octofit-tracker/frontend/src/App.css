@@ -1,0 +1,83 @@
+
+.App {
+  text-align: center;
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  min-height: 100vh;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.navbar-brand {
+  color: #fff !important;
+  font-weight: bold;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+.navbar-nav .nav-link {
+  color: #f8f9fa !important;
+  margin-right: 1rem;
+  font-weight: 500;
+}
+.navbar-nav .nav-link:hover {
+  color: #ffd700 !important;
+}
+
+.card-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #007bff;
+}
+.card {
+  background: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+}
+.table {
+  background: #f7faff;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+.table-dark th {
+  background: #007bff;
+  color: #fff;
+}
+.btn {
+  background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%);
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: 500;
+}
+.btn:hover {
+  background: linear-gradient(90deg, #00c6ff 0%, #007bff 100%);
+  color: #ffd700;
+}
+.App-link {
+  color: #007bff;
+  font-weight: bold;
+}
+.App-link:hover {
+  color: #00c6ff;
+}
+.card-title.text-primary {
+  color: #007bff !important;
+}
+.card-title.text-success {
+  color: #28a745 !important;
+}
+.card-title.text-info {
+  color: #17a2b8 !important;
+}
+.card-title.text-warning {
+  color: #ffc107 !important;
+}
+.card-title.text-danger {
+  color: #dc3545 !important;
+}
+.logo-small {
+  height: 40px;
+  margin-right: 12px;
+}
